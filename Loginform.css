@@ -1,0 +1,166 @@
+.leo {
+	width: 450px;
+	margin: 60px auto 30px;
+	padding: 15px;
+	position: relative;
+
+    background: #F0F8FF;
+    border-radius: 6px;
+    color: #008080;
+    box-shadow: 
+       0 5px 5px rgba(0,0,0,0.5),
+       0 1px 5px rgba(0,0,0,0.5),
+       0 0 0 12px rgba(255,255,255,0.5);
+}
+
+.leo h1 {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: #70DBDB;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #C2D6D6;
+    text-shadow: 0 1px 0 rgba(240,240,240,0.8);
+    box-shadow: 0 1px 0 rgba(200,200,200,0.8);
+    
+}
+
+.leo h1 .login,
+.leo h1 .signup {
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.leo h1 .login {
+   color: #00527A;
+   padding-right: 5px;
+}
+
+.leo h1 .signup {
+	color: #00527A;
+	padding-left: 5px; 
+
+}
+
+.leo .float {
+	width: 50%;
+	float: left;
+	
+}
+
+.leo label {
+	display: block;
+	padding: 0 0 5px 2px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	font-size: 15px;
+}
+
+.leo label i {
+	margin-right: 5px;
+	display: inline-block;
+	width: 15px;
+}
+
+.leo input[type=text],
+.leo input[type=password] {
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 4px solid #C2FFFF;
+	border-radius: 5px;
+
+}
+
+.leo input[type=text]:hover,
+.leo input[type=password]:hover{
+	border-color: #0099FF;
+}
+
+.leo label:hover ~ input {
+	border-color: #0099FF;
+}
+
+.leo input[type=text]:focus,
+.leo input[type=password]:focus {
+	border-color: #33CCFF;
+	outline: none;	
+}
+
+.levan:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.leo input[type=submit],
+.leo .log {
+	width: 48%;
+	height: 45px;
+	float: left;
+	position: relative;
+
+	box-shadow: inset 0 2px rgba(255,255,255,0.5);
+    border-radius: 7px;
+    cursor: pointer;
+
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.leo input[type=submit] {
+	margin-left: 2%;
+	background: linear-gradient(#34a5cf, #2a8ac4);
+	border: 1px solid #2b8bc7;
+	color: #ffffff;
+	text-shadow: 0 1px rgba(0,0,0,0.5);
+	text-decoration: none;
+}
+
+.leo .log {
+	margin-right: 1%;
+	background: linear-gradient(#34a5cf, #2a8ac4);
+	border: 1px solid #2b8bc7;
+	color: #ffffff;
+	text-shadow: 0 1px rgba(0,0,0,0.5);
+	text-decoration: none;
+}
+
+.leo input[type=submit]:hover,
+.leo .log:hover {
+	box-shadow: 
+	    inset 0 1px rgba(255,255,255,0.2),
+	    inset 0 20px 40px rgba(255,255,255,0.2);
+}
+
+.leo input[type=submit]:active,
+.leo .log:active{
+	top: 1.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
